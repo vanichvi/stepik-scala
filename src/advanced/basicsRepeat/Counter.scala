@@ -1,4 +1,4 @@
-package advanced.basicsRepeated
+package advanced.basicsRepeat
 
 import scala.annotation.tailrec
 

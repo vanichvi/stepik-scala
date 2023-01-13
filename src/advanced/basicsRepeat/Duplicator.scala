@@ -1,4 +1,4 @@
-package advanced.basicsRepeated
+package advanced.basicsRepeat
 
 object Duplicator extends App {
   def duplicate[T](someList: List[T], nDumps: Int): List[T] = someList.flatMap(x => List.fill(nDumps)(x))

@@ -1,4 +1,4 @@
-package advanced.basicsRepeated
+package advanced.basicsRepeat
 
 object Formatter extends App {
 //  println("%.3f".format(10.2345))

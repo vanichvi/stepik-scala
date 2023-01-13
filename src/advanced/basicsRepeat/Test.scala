@@ -1,4 +1,4 @@
-package advanced.basicsRepeated
+package advanced.basicsRepeat
 
 object Test {
   def add(x: Int, y: => Int) = x + y
