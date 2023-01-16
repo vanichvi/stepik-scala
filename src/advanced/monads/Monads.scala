@@ -15,7 +15,7 @@ object Monads extends App {
 
   def getBf(user: User): List[User] = List(user.bf)
 
-  val nameToFind = "Mike"
+  val nameToFind = "Sam"
 
   val bf = Service.findUser(users, nameToFind).flatMap(getBf).flatMap(getBf)
 
